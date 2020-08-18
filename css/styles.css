@@ -10137,8 +10137,8 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  padding-top: 20rem;
-  padding-bottom: 0rem;
+  height: 700px;
+  margin-top: 90px;
   text-align: center;
   color: #131313;
   background-image: url("../assets/img/header-bg.png");
@@ -10164,8 +10164,6 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 30rem;
-    padding-bottom: 0rem;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
