@@ -10137,8 +10137,9 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
+  padding-top: 20rem;
+  padding-bottom: 0rem;
+  margin-top:100px;
   text-align: center;
   color: #131313;
   background-image: url("../assets/img/header-bg.png");
