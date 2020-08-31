@@ -72,10 +72,9 @@
                     <h2 class="section-heading">Contact</h2>
                 </div>
 
-                <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
+        <div id="contact-form" class="row align-items-stretch mb-5">
                 <form action="https://formspree.io/mpzyqdng" method="POST">
+                 <div class="col-md-6">
                 <input type="hidden" name="_subject" value="Contact Form Submission" />
                 <div class="form-group">
                 <input class="form-control" type="text" name="name" placeholder="Your name*" required>
@@ -83,15 +82,17 @@
                 <div class="form-group">
                 <input class="form-control" type="email" name="_replyto" placeholder="Your email*" required>
                 </div>
+                </div>
+                 <div class="col-md-6">
                 <div class="form-group form-group-textarea mb-md-0">
                 <textarea  class="form-control" name="message" placeholder="Anything else?"></textarea>
+                </div>
                 </div>
                 <div class="text-center">
                 <button class="btn btn-primary btn-xl text-uppercase" type="submit">Send</button>
                 </div>
             </form>
         </div>
-    </div>
 
                 <!--
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
